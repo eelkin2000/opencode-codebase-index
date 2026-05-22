@@ -1,7 +1,7 @@
 {
-  "name": "opencode-codebase-index",
-  "version": "0.8.0",
-  "description": "Semantic codebase indexing and search for OpenCode - find code by meaning, not just keywords",
+  "name": "@eelkin/opencode-codebase-index-gd",
+  "version": "0.8.1",
+  "description": "GDScript-aware fork of opencode-codebase-index — adds tree-sitter semantic parsing + call-graph extraction for .gd files. Intended to be temporary, pending upstream merge.",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -16,10 +16,10 @@
     "opencode-codebase-index-mcp": "dist/cli.js"
   },
   "license": "MIT",
-  "author": "Kenneth",
+  "author": "Eugene Elkin (fork of Kenneth Helweg's opencode-codebase-index)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Helweg/opencode-codebase-index"
+    "url": "https://github.com/eelkin2000/opencode-codebase-index"
   },
   "keywords": [
     "opencode",
