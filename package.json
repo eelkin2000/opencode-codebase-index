@@ -51,8 +51,7 @@
     "test:coverage": "vitest run --coverage",
     "lint": "eslint src/",
     "typecheck": "tsc --noEmit",
-    "prepublishOnly": "npm run build",
-    "prepare": "node -e \"const fs=require('fs');const cp=require('child_process');if(!fs.existsSync('dist')||!fs.readdirSync('native').some(f=>f.endsWith('.node')))cp.execSync('npm run build',{stdio:'inherit'})\""
+    "prepublishOnly": "npm run build"
   },
   "files": [
     "dist",
